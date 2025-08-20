@@ -39,13 +39,13 @@ const phases = [
   {words:["PYTHON","NODEJS","JAVASCRIPT","JAVA","PHP"], size:10},
   {words:["FRAMEWORK","LARAVEL","EXPRESS","SPRING","DJANGO"], size:10},
   {words:["APIREST","GRAPHQL","ENDPOINT","CLIENT","REQUEST"], size:10},
-  {words:["HEADER","GRAPHQL","ENDPOINT","TITLE","DESCRIPTION"], size:10},
+  {words:["HEADER","GRAPHQL","ENDPOINT","TITLE"], size:10},
   {words:["APIREST","GRAPHQL","ENDPOINT"], size:10},
   {words:["APIREST","GRAPHQL","HEADER"], size:10},
   {words:["APIREST","CONTENT","HEADER"], size:10},
   {words:["APIREST","SITE","H1"], size:10},
-  {words:["APIREST","NAME","DESCRIPTION"], size:10},
-  {words:["APIREST","FOOTER","DESCRIPTION"], size:10},
+  {words:["APIREST","SQL"], size:10},
+  {words:["APIREST","FOOTER"], size:10},
   {words:["APIREST","FOOTER","COPYRIGHT"], size:10},
   {words:["APIREST","HTML","COPYRIGHT"], size:10},
   {words:["APIREST","CSS","API"], size:10},
@@ -58,7 +58,7 @@ let selectedCells = [];
 let foundSet = new Set();   // controla palavras já encontradas na fase
 
 const gridElement  = document.getElementById("grid");
-const wordsElement = document.getElementById("words");
+const wordsElement = document.getElementById("words");a Sá
 const scoreElement = document.getElementById("score");
 const phaseElement = document.getElementById("phase");
 const nextButton   = document.getElementById("nextPhase");
@@ -220,3 +220,4 @@ generateGrid(phases[0].size, phases[0].words);
 </script>
 </body>
 </html>
+
